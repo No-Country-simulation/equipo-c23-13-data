@@ -22,7 +22,7 @@
 
 ### Introducción:
 
-Este proyecto tiene como objetivo desarrollar un modelo de predicción de fraudes con tarjetas de crédito utilizando técnicas avanzadas de *Machine Learning*. El dataset utilizado proviene de Kaggle y contiene transacciones realizadas por titulares de tarjetas en Europa en 2023. 
+Este proyecto tiene como objetivo desarrollar un modelo de predicción de fraudes con tarjetas de crédito utilizando técnicas avanzadas de *Machine Learning*. El dataset utilizado proviene de Kaggle y contiene transacciones realizadas por titulares de tarjetas en Europa. 
 
 El desafío es crear un modelo que pueda identificar patrones y predecir si una transacción es fraudulenta o no. Al detectar fraudes de manera más eficiente, los sistemas de tarjetas de crédito pueden prevenir pérdidas significativas y proteger a los usuarios.
 
@@ -110,10 +110,6 @@ La calidad del dataset es alta, lo que permite realizar un entrenamiento efectiv
 - **Colaboratory con Python**: Utilizaremos Colaboratory, una plataforma de Google basada en Jupyter Notebooks, junto con las potentes librerías de Python para análisis de datos como Pandas, NumPy y Matplotlib.
   
    <img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="60">
-
-- **Power BI**: Para la visualización de datos avanzada, aprovecharemos Power BI, una herramienta líder en el mercado para crear informes interactivos y paneles de control.
-
-   <img src="https://github.com/No-Country/c17-99-t-data-bi/assets/77640142/21548f2c-e075-46c3-a055-a22b021b9fac" width="100">
 
 - **Slack**: Plataforma de comunicación para equipos.
   <br>
