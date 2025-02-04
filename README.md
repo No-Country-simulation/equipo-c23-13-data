@@ -146,6 +146,9 @@ La calidad del dataset es alta, lo que permite realizar un entrenamiento efectiv
 
 | Integrantes          | Rol                                     | GitHub                                        | LinkedIn                                                                           |
 |----------------------|-----------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------|
-| --------------     | Project Manager                          | [GitHub](https://)  | [LinkedIn](https://)       |
-| ---------------         | Analista de Datos                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
-| ---------------  | Analista de Datos, Machine Learning      | [GitHub](https://) | [LinkedIn](https://)                     |
+| Jorge Adrian Perez   | Project Manager                          | [GitHub](https://github.com/jorgeperez23) | [LinkedIn](https://www.linkedin.com/in/jorge-perez-1b136446)                  |
+| Miguel Angel Choque       | Analista de Datos                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
+| Bryan Hancco         | Analista de Datos                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
+| Micaela Kler         | Analista BI                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
+| Joaquin Pereira        | Analista BI                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
+| Jorge Adrian Perez  | Data Scientist , Machine Learning      | [GitHub](https://github.com/jorgeperez23) | [LinkedIn](https://www.linkedin.com/in/jorge-perez-1b136446)                     |
