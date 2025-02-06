@@ -172,7 +172,7 @@ Gráfico que muestra el rendimiento del modelo en términos de sensibilidad y es
 
 **Importancia de Características:**
 
-Un gráfico de barras que destaca las características más relevantes para el modelo (ej: V17, V14, V12), identificadas mediante el algoritmo ADAG. Esto ayuda a entender qué factores influyen en la detección de fraudes.
+Un gráfico de barras que destaca las características más relevantes para el modelo (ej: V14, V10, V4), identificadas mediante el algoritmo ADAG. Esto ayuda a entender qué factores influyen en la detección de fraudes.
 
 <img src="images\caracteristicas.png" width="700">
 
@@ -189,7 +189,7 @@ Un gráfico de barras que destaca las características más relevantes para el m
 
  - El uso de SMOTE permitió manejar el desbalance de clases, mejorando la detección de fraudes sin sacrificar la precisión general.
 
- - Las características anonimizadas V17, V14 y V12 fueron las más influyentes en las predicciones, sugiriendo patrones específicos asociados a actividades fraudulentas.
+ - Las características anonimizadas V14, V10 y V4 fueron las más influyentes en las predicciones, sugiriendo patrones específicos asociados a actividades fraudulentas.
 
 **Recomendaciones:**
 
