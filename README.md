@@ -1,4 +1,5 @@
 # equipo-c23-13-data
+![Banner Titulo](https://github.com/No-Country-simulation/equipo-c23-13-data/assets/Deteccion)
 # Deteccion de fraudes con tarjetas de crédito
 
 ### 📝 Índice:
@@ -87,7 +88,7 @@ Este dataset está especialmente diseñado para abordar el problema de la **dete
 
 La calidad del dataset es alta, lo que permite realizar un entrenamiento efectivo del modelo sin complicaciones adicionales relacionadas con la limpieza de datos.
 
-### Resultados y Evaluación 
+### Resultados y Evaluación: 
 
 
 #### Herramientas y Librerías Utilizadas:
