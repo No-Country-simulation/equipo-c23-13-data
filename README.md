@@ -1,4 +1,4 @@
-# equipo-c23-13-data
+# Equipo-c23-13-data
 
 # Deteccion de fraudes con tarjetas de crédito
 
@@ -92,6 +92,16 @@ La calidad del dataset es alta, lo que permite realizar un entrenamiento efectiv
 
 ### Resultados y Evaluación: 
 
+Tras el entrenamiento del modelo de Árboles de Decisión con Aumento por Gradiente (ADAG), se obtuvieron los siguientes resultados en el conjunto de prueba:
+
+  - AUC-ROC: 0.99
+  - Precisión: 0.99
+  - Sensibilidad (Recall): 0.99
+  - Puntuación F1: 0.99
+
+Estos resultados indican que el modelo tiene una excelente capacidad para distinguir entre transacciones fraudulentas y no fraudulentas, manteniendo un equilibrio adecuado entre precisión y sensibilidad.
+
+Además, la matriz de confusión mostró una alta tasa de verdaderos positivos y una baja tasa de falsos negativos, lo que sugiere que el modelo es eficaz en la identificación de fraudes sin generar un número significativo de alertas falsas.
 
 #### Herramientas y Librerías Utilizadas:
 
@@ -140,17 +150,61 @@ La calidad del dataset es alta, lo que permite realizar un entrenamiento efectiv
 
 ###  Visualización de Resultados:
 
+Para comprender el comportamiento del modelo y los datos, se generaron las siguientes visualizaciones clave:
+
+**Distribución de Clases:**
+
+Un gráfico de barras que muestra la distribución altamente desbalanceada entre transacciones legítimas (clase 0) y fraudulentas (clase 1). Menos del 1% de las transacciones son fraudulentas, lo que resalta la importancia de técnicas como SMOTE para balancear el dataset.
+
+<img src="images\distribucion_clases.png" width="700">
+
+**Matriz de Confusión:**
+
+Una matriz que ilustra los verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos del modelo. Esto permite evaluar la capacidad del modelo para detectar fraudes sin generar demasiadas alertas falsas.
+
+<img src="images\matriz_confusion.png" width="700">
+
+**Curva ROC-AUC:**
+
+Gráfico que muestra el rendimiento del modelo en términos de sensibilidad y especificidad. El modelo alcanzó un AUC-ROC de 0.98, indicando una excelente capacidad para distinguir entre clases.
+
+<img src="images\roc.png" width="700">
+
+**Importancia de Características:**
+
+Un gráfico de barras que destaca las características más relevantes para el modelo (ej: V17, V14, V12), identificadas mediante el algoritmo ADAG. Esto ayuda a entender qué factores influyen en la detección de fraudes.
+
+<img src="images\caracteristicas.png" width="700">
+
+**Comparación entre Predicciones y Etiquetas Reales:**
+
+<img src="images\comparacion.png" width="700">
+
 
 
 ###  Conclusión y Recomendaciones:
+**Conclusiones:**
 
+ - El modelo de Árboles de Decisión con Aumento por Gradiente (ADAG) demostró un alto rendimiento, con un AUC-ROC de 0.99, lo que indica una capacidad robusta para identificar transacciones fraudulentas.
+
+ - El uso de SMOTE permitió manejar el desbalance de clases, mejorando la detección de fraudes sin sacrificar la precisión general.
+
+ - Las características anonimizadas V17, V14 y V12 fueron las más influyentes en las predicciones, sugiriendo patrones específicos asociados a actividades fraudulentas.
+
+**Recomendaciones:**
+
+ - Optimización de hiperparámetros: Utilizar técnicas como Grid Search para afinar los parámetros del modelo y mejorar métricas como la precisión.
+
+ - Implementación en tiempo real: Integrar el modelo en sistemas de procesamiento de transacciones para alertas inmediatas.
+
+ - Recolección de más datos: Incluir variables adicionales como ubicación geográfica o tipo de comercio para enriquecer el análisis.
 
 ###  Contacto:
 
 | Integrantes          | Rol                                     | GitHub                                        | LinkedIn                                                                           |
 |----------------------|-----------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------|
 | Jorge Adrian Perez   | Project Manager                          | [GitHub](https://github.com/jorgeperez23) | [LinkedIn](https://www.linkedin.com/in/jorge-perez-1b136446)                  |
-| Miguel Angel Choque       | Analista de Datos                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
+| Miguel Angel Choque       | Analista de Datos                       | [GitHub](https://github.com/mickychog)       | [LinkedIn](https://www.linkedin.com/in/miguel-choque-garcia/)                                 |
 | Bryan Hancco         | Analista de Datos                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
 | Micaela Kler         | Analista BI                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
 | Joaquin Pereira        | Analista BI                       | [GitHub](https://)       | [LinkedIn](https://)                                 |
