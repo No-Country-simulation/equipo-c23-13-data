@@ -1,5 +1,5 @@
 # equipo-c23-13-data
-![Banner Titulo](https://github.com/No-Country-simulation/equipo-c23-13-data/assets/Deteccion.png)
+<img src="https://github.com/No-Country-simulation/equipo-c23-13-data/images/Deteccion.png" >
 # Deteccion de fraudes con tarjetas de crédito
 
 ### 📝 Índice:
