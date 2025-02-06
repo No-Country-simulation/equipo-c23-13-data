@@ -166,7 +166,7 @@ Una matriz que ilustra los verdaderos positivos, falsos positivos, verdaderos ne
 
 **Curva ROC-AUC:**
 
-Gráfico que muestra el rendimiento del modelo en términos de sensibilidad y especificidad. El modelo alcanzó un AUC-ROC de 0.98, indicando una excelente capacidad para distinguir entre clases.
+Gráfico que muestra el rendimiento del modelo en términos de sensibilidad y especificidad. El modelo alcanzó un AUC-ROC de 0.99, indicando una excelente capacidad para distinguir entre clases.
 
 <img src="images\roc.png" width="700">
 
